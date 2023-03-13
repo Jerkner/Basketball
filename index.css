@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: CursedTimerULiL;
+    src: url(Cursed_Timer_ULiL/CursedTimerULiL.ttf);
+
+}
+.main-container {
+
+    margin: 2% auto auto auto;
+    width: 575px;
+    height: 350px;
+    /* border: solid red 5px; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+}
+
+.home-container {
+    /* border: solid red 5px; */
+
+}
+
+.guest-container {
+    /* border: solid red 5px; */
+
+}
+
+.home-score-title, .guest-score-title {
+    /* border: solid red 5px; */
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-score-background, .guest-score-background {
+    /* border: solid red 5px; */
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+}
+
+.home-score, .guest-score {
+    color: #F94F6D;
+    text-align: center;
+    font-size: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: CursedTimerULiL;
+    padding-top: 20px;
+    margin-top: 21px;
+    }
+
+.home-score-container,.guest-score-container  {
+    /* border: solid red 5px; */
+display: flex;
+justify-content: space-between;
+margin-top: 26px;
+}
+
+.home-point, .guest-point {
+height: 45px;
+width: 45px;
+color: #9AABD8;
+border: solid #9AABD8 2px;
+background-color: #1B244A;
+border-radius: 5px;
+font-family: CursedTimerULiL;
+font-size: larger;
+}
+
+.new-game-bar {
+    width: 575px;
+    margin: auto;
+    text-align: center;
+    background-color: #1B244A;
+}
+
+#new-game {
+margin-bottom: 10px;
+
+}
