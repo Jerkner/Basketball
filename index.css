@@ -81,5 +81,21 @@ font-size: larger;
 
 #new-game {
 margin-bottom: 10px;
+color: #9AABD8;
+border: solid #9AABD8 2px;
+background-color: #1B244A;
+border-radius: 5px;
+font-family: CursedTimerULiL;
+font-size: larger;
+padding-top: 5px;
+}
 
+button:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+}
+
+button:active {
+    transition-duration: 0.3s;
+    transform: scale(0.9);
 }
